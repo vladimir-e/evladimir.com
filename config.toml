@@ -14,11 +14,8 @@ hasCJKLanguage = true
     author = "Vladimir Evdokimov"
     avatar = "avatar.jpg"
     favicon = "favicon.ico"
-    subtitle = "Software engineer"
     location = "NYC"
-    description = """
-        Let's connect
-    """
+    description = "Software engineer"
     publicationYear = "2019"
     # listPageDateFormat = "January, 2006" # See https://gohugo.io/functions/format/
     # singlePageDateFormat = "January 2, 2006"
