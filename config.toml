@@ -1,4 +1,71 @@
-baseURL = "http://evladimir.com/"
-languageCode = "en-us"
+baseurl = "https://evladimir.com/"
 title = "Vladimir Evdokimov"
 theme = "pulp"
+canonifyurls = true
+hasCJKLanguage = true
+# pygmentsCodefences = true
+# pygmentsUseClasses = true
+# googleAnalytics = "{your tracking code}"
+
+[taxonomies]
+  series = "series"
+
+[params]
+    author = "Vladimir Evdokimov"
+    avatar = "avatar.jpg"
+    favicon = "favicon.ico"
+    subtitle = "Software engineer"
+    location = "NYC"
+    description = """
+        Let's connect
+    """
+    publicationYear = "2019"
+    # listPageDateFormat = "January, 2006" # See https://gohugo.io/functions/format/
+    # singlePageDateFormat = "January 2, 2006"
+    custom_css = ["/css/custom.css"]
+    # custom_js = ["/js/custom.js"]
+
+[outputs]
+    section = ["JSON", "HTML"]
+
+# [[menu.main]]
+#     identifier = "blog"
+#     # name = "Blog" #If display text link, cancel comment out
+#     pre = "<i class='fa fa-book-open fa-lg'></i>" #Choose your favorite font from Font Awesome
+#     url = "/blog/"
+#     weight = 10
+
+[[menu.main]]
+    identifier = "linkedin"
+    # name = "Twitter"
+    pre = "<i class='fab fa-linkedin fa-lg'></i>"
+    url = "https://www.linkedin.com/in/vladimir-evdokimov"
+    weight = 10
+
+[[menu.main]]
+    identifier = "github"
+    # name = "GitHub"
+    pre = "<i class='fab fa-github fa-lg'></i>"
+    url = "https://github.com/vladimir-e"
+    weight = 20
+
+[[menu.main]]
+    identifier = "telegram"
+    # name = "GitHub"
+    pre = "<i class='fab fa-telegram fa-lg'></i>"
+    url = "https://t.me/evladimir_com"
+    weight = 30
+
+[[menu.main]]
+    identifier = "facebook"
+    # name = "Twitter"
+    pre = "<i class='fab fa-facebook fa-lg'></i>"
+    url = "https://www.facebook.com/evdokimov.vladimir"
+    weight = 40
+
+[[menu.main]]
+    identifier = "email"
+    # name = "Email"
+    pre = "<i class='fa fa-envelope fa-lg'></i>"
+    url = "mailto:job@evladimir.com"
+    weight = 50
